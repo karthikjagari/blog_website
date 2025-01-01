@@ -4,7 +4,6 @@ from .forms import RegisterForm
 #from django.contrib.auth import auth 
 from django.contrib.auth import authenticate, login, logout
 
-
 from django.contrib.auth.forms import AuthenticationForm
 
 
@@ -28,7 +27,7 @@ def register(request):
         form = RegisterForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('Register')
+            return redirect('register')
     else:
         form = RegisterForm()
    

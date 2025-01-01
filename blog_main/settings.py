@@ -37,10 +37,12 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    
+    
     'blogs',
+    'dashboards',
     'crispy_forms',
     'crispy_bootstrap4',
-    'dashboards',
 ]
 
 MIDDLEWARE = [

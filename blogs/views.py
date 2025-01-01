@@ -73,4 +73,4 @@ def search(request):
     }
     
     #print("value :",blogs)
-    return render(request,'search.html',content)
+    return render(request, 'search.html',content)
